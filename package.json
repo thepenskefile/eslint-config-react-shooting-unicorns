@@ -23,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/shooting-unicorns/eslint-config-react-shooting-unicorns/issues"
   },
-  "homepage": "https://github.com/shooting-unicorns/eslint-config-react-shooting-unicorns#readme"
+  "homepage": "https://github.com/shooting-unicorns/eslint-config-react-shooting-unicorns#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-config-react-tools": "^1.x.x",
+    "eslint-plugin-flowtype": "^2.41.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "1.17.1"
+  }
 }
