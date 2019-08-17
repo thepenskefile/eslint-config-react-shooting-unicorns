@@ -1,6 +1,6 @@
 {
   "name": "@shooting-unicorns/eslint-config-react-shooting-unicorns",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ESLint config for products by Shooting Unicorns",
   "main": "index.js",
   "scripts": {
