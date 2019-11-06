@@ -4,7 +4,8 @@ module.exports = {
   ],
   plugins: [
     'prettier',
-    'react'
+    'react',
+    'react-hooks'
   ],
   parser: 'babel-eslint',
   rules: {
@@ -15,7 +16,8 @@ module.exports = {
       "singleQuote": true
     }],
     'react/default-props-match-prop-types': 'error',
-    'react-hooks/exhaustive-deps': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'error',
